@@ -1,6 +1,6 @@
 {
 	"name": "@vendee-cinema/common",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Core shared components for VendeeCinema microservices ecosystem",
 	"author": {
 		"name": "@bagdenius",
