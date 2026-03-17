@@ -1,6 +1,6 @@
 {
 	"name": "@vendee-cinema/common",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Core shared components for VendeeCinema microservices ecosystem",
 	"author": {
 		"name": "@bagdenius",
@@ -23,5 +23,11 @@
 		"@vendee-cinema/core": "^1.0.4",
 		"prettier": "^3.8.1",
 		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@nestjs/common": "^11.1.17",
+		"@nestjs/config": "^4.0.3",
+		"@nestjs/microservices": "^11.1.17",
+		"@vendee-cinema/contracts": "^1.1.8"
 	}
 }
