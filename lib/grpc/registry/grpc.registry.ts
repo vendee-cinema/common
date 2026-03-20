@@ -15,5 +15,10 @@ export const GRPC_CLIENTS = {
 		package: 'user.v1',
 		protoPath: PROTO_PATHS.USER,
 		env: 'USER_GRPC_URL'
+	},
+	MEDIA_PACKAGE: {
+		package: 'media.v1',
+		protoPath: PROTO_PATHS.MEDIA,
+		env: 'MEDIA_GRPC_URL'
 	}
 } as const
