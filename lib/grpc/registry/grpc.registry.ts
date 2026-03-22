@@ -9,7 +9,7 @@ export const GRPC_CLIENTS = {
 	ACCOUNT_PACKAGE: {
 		package: 'account.v1',
 		protoPath: PROTO_PATHS.ACCOUNT,
-		env: 'ACCOUNT_GRPC_URL'
+		env: 'AUTH_GRPC_URL'
 	},
 	USER_PACKAGE: {
 		package: 'user.v1',
@@ -29,6 +29,6 @@ export const GRPC_CLIENTS = {
 	CATEGORY_PACKAGE: {
 		package: 'category.v1',
 		protoPath: PROTO_PATHS.CATEGORY,
-		env: 'CATEGORY_GRPC_URL'
+		env: 'MOVIE_GRPC_URL'
 	}
 } as const
