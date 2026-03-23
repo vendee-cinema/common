@@ -1,4 +1,4 @@
-import { Timestamp } from '@vendee-cinema/contracts/gen/ts/google/protobuf/timestamp'
+import { Timestamp } from '@vendee-cinema/contracts/timestamp'
 
 export function timestampToISO(ts: Timestamp): string | null {
 	return new Date(ts.seconds * 1000 + ts.nanos / 1_000_000).toISOString()

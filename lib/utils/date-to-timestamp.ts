@@ -1,4 +1,4 @@
-import { Timestamp } from '@vendee-cinema/contracts/gen/ts/google/protobuf/timestamp'
+import { Timestamp } from '@vendee-cinema/contracts/timestamp'
 
 export function dateToTimestamp(date: Date): Timestamp {
 	const ms = date.getTime()
