@@ -16,7 +16,7 @@
 	},
 	"scripts": {
 		"build": "tsc -p tsconfig.build.json",
-		"format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+		"format": "prettier --write \"lib/**/*.ts\" \"test/**/*.ts\""
 	},
 	"devDependencies": {
 		"@types/node": "^25.3.5",
@@ -28,6 +28,6 @@
 		"@nestjs/common": "^11.1.17",
 		"@nestjs/config": "^4.0.3",
 		"@nestjs/microservices": "^11.1.17",
-		"@vendee-cinema/contracts": "^1.2.3"
+		"@vendee-cinema/contracts": "^1.2.4"
 	}
 }
