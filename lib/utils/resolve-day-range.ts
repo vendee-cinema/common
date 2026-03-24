@@ -1,5 +1,5 @@
-export function resolveDayRange(dateString: string | Date) {
-	const date = new Date(dateString)
+export function resolveDayRange(dateString?: string | Date) {
+	const date = dateString ? new Date(dateString) : new Date()
 
 	const start = new Date(date)
 	start.setHours(0, 0, 0, 0)
