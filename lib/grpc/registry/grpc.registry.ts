@@ -31,6 +31,11 @@ export const GRPC_CLIENTS = {
 		protoPath: PROTO_PATHS.MOVIE,
 		env: 'MOVIE_GRPC_URL'
 	},
+	PAYMENT_PACKAGE: {
+		package: 'payment.v1',
+		protoPath: PROTO_PATHS.PAYMENT,
+		env: 'PAYMENT_GRPC_URL'
+	},
 	SEAT_PACKAGE: {
 		package: 'seat.v1',
 		protoPath: PROTO_PATHS.SEAT,
