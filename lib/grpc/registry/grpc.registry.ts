@@ -36,6 +36,11 @@ export const GRPC_CLIENTS = {
 		protoPath: PROTO_PATHS.PAYMENT,
 		env: 'PAYMENT_GRPC_URL'
 	},
+	REFUND_PACKAGE: {
+		package: 'refund.v1',
+		protoPath: PROTO_PATHS.REFUND,
+		env: 'PAYMENT_GRPC_URL'
+	},
 	SEAT_PACKAGE: {
 		package: 'seat.v1',
 		protoPath: PROTO_PATHS.SEAT,
