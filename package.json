@@ -28,6 +28,6 @@
 		"@nestjs/common": "^11.1.17",
 		"@nestjs/config": "^4.0.3",
 		"@nestjs/microservices": "^11.1.17",
-		"@vendee-cinema/contracts": "^1.2.31"
+		"@vendee-cinema/contracts": "^1.2.32"
 	}
 }

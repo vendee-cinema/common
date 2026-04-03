@@ -11,6 +11,11 @@ export const GRPC_CLIENTS = {
 		protoPath: PROTO_PATHS.AUTH,
 		env: 'AUTH_GRPC_URL'
 	},
+	BOOKING_PACKAGE: {
+		package: 'booking.v1',
+		protoPath: PROTO_PATHS.BOOKING,
+		env: 'BOOKING_GRPC_URL'
+	},
 	CATEGORY_PACKAGE: {
 		package: 'category.v1',
 		protoPath: PROTO_PATHS.CATEGORY,
